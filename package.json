@@ -1,0 +1,20 @@
+{
+  "name": "pollingapi",
+  "version": "1.0.0",
+  "description": "api for polling questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "prod_start": "NODE_ENV=production nodemon index.js"
+  },
+  "author": "Rupesh kumar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "rotating-file-stream": "^3.0.3"
+  }
+}
